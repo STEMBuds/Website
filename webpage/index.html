@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<title>STEMBuds.org</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="assets/css/style.css" rel="stylesheet" media="screen">
+<link href="assets/css/responsive.css" rel="stylesheet">
+<link rel="shortcut icon" type="image/png" href="IMG/STEMBUDSlogo.png" />
+<link href="css/main.css" rel="stylesheet" type="text/css"/>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card-2" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><img style="top:0px; position:relative; width:100px; height:23px;" id="logo" src="./img/StemBudsOneLineBlue.png"></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small w3-hide-medium">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-question"></i> ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-folder-open"></i> CURRICULUM</a>
+      <a href="#ca" class="w3-bar-item w3-button"><i class="fa fa-folder-open"></i> COMPETITION MATH</a>
+      <a href="#projects" class="w3-bar-item w3-button"><i class="fa fa-gear"></i> PROJECTS</a>
+      <a href="#app" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> APP</a>
+        <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">CURRICULUM</a>
+  <a href="#ca" onclick="w3_close()" class="w3-bar-item w3-button">COMPETITION MATH</a>
+  <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
+  <a href="#app" onclick="w3_close()" class="w3-bar-item w3-button">APP</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Home Section -->
+<header id="home">
+<iframe style="position: absolute; left: 0px; top: 60px; width: 100%; height:calc(100% - 60px);" src="https://www.youtube.com/embed/OJS9w1v2ufI" allowfullscreen></iframe>
+</header>
+<!-- About Section -->
+<div class="w3-container" style="padding-top:100vh;"></div>
+<div class="w3-container" style="padding-top:100px;" id="about">
+  <h3 class="w3-center">ABOUT</h3>
+  <p class="w3-center w3-large">Partners in Excellence</p>
+  <div class="w3-row-padding w3-center" style="margin-top:24px">
+    <div class="w3-third">
+      <i class="fa fa-map-marker w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large"style="margin-top:-10px">Where</p>
+      <p>Tier-1 elementary schools in the Nashua School District. 80% of the students attending Tier-1 schools are on a meal plan. There are 5 Tier-1 elementary schools in Nashua.</p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-exclamation-triangle w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large"style="margin-top:-10px">Current Problem</p>
+      <p>There are too many varying levels of capabilities in a class. Also, the curriculum covered is very broad and does not focus on just mastering few skills, the syllabus seems to favor quantity over quality.</p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-check w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large"style="margin-top:-10px">Our Solution</p>
+      <p>Work with underperforming students once a week for 90 minutes. The ratio of students to volunteers is 3 to 1 as we try to separate the kids based on their level. We focus on mastering 1 topic every week.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:100px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6"style="margin-top:-30px">
+      <h3>Session Layout</h3>
+      <p>We break the year into three, 9 week, sessions; Math, Science, and First Lego League<br><br>The hour and a half class is split into 3 parts. We spend 30 minutes helping the kids with their school homework. Next, we spend roughly 20 minutes teaching that weeks topic. Lastly, we spend the rest of the class playing a game or doing an experiment that relates to the topic.<br><br>The most important part of STEMBuds is using children's natural curiosity and love for games to plant a genuine interest in learning new topics. <br></p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-folder-open-o"> </i> View Our Curriculum</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="./img/chomo.png" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container w3-white" style="padding:100px 16px" id="team">
+  <h3 class="w3-center">TEAM</h3>
+  <div class="w3-row-padding" style="margin-top:24px">
+	<div class="w3-container">
+		<div class="row">
+				<div class="ed_populer_areas_slider">
+					<div class="owl-theme owl-carousel ">
+						<div class="w3-card-2">
+        <img src="./img/Ashok.png" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Ashok Arun</h3>
+          <p class="w3-opacity"style="margin-top:-10px">Founder & President</p>
+          <p>I am in the class of 2019 at NHSS. I started the STEMBuds program in 2015 helping only 12 kids. The club has grown from there to be working with 5 schools, and helping 115 kids. It amazes me how far the program has come!</p>
+        </div>
+      </div>
+						
+						<div class="w3-card-2">
+        <img src="./img/Deepti.png" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Deepti Srinivasan</h3>
+          <p class="w3-opacity"style="margin-top:-10px">Vice President</p>
+          <p>I am in the class of 2019 at NHSS. Every student should be equipped with the tools to succeed in STEM, when visiting the elementary schools my only goal is to show the kids that STEM is enjoyable and important.
+        </div>
+      </div>
+						<div class="w3-card-2">
+        <img src="./img/Anish.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Anish Mukherjee</h3>
+          <p class="w3-opacity"style="margin-top:-10px">Vice President</p>
+          <p>I am in the class of 2019 at NHSS. I believe that everyone should have an equal opportunity to learn about the world of STEM. The kids in STEMBuds are very capabile, they just need a little support to be the best they can!</p>
+        </div>
+      </div>
+                        <div class="w3-card-2">
+        <img src="./img/Antara.png" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Antara Garg</h3>
+          <p class="w3-opacity"style="margin-top:-10px">Co-Leader of Math Curriculum</p>
+          <p>I am in the class of 2020 at NHSS. As someone who loves the STEM feilds, I aim to show kids the advantages of knowing core concepts like Math and Science. I want every kid to have the same opportunities I did.</p>
+        </div>
+      </div>
+						<div class="w3-card-2">
+        <img src="./img/Priya.png" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Priya Gavini</h3>
+          <p class="w3-opacity"style="margin-top:-10px">Co-Leader of Math Curriculum</p>
+          <p>I am in the class of 2020 at NHSS. STEM education is pivotal since it is infused into every part of our lives. I think it is of the utmost importance that a student receives the amount of help and guidance they need to prosper. </p>
+        </div>
+      </div>
+				</div>
+			</div>
+		  </div>
+        </div><!-- /.container -->
+    </div>
+<!--Page main section end-->
+<!--main js file start--> 
+      <script type="text/javascript" src="js/jquery-1.12.2.js"></script> 
+      <script type="text/javascript" src="js/owl.carousel.js"></script>
+      <script type="text/javascript" src="js/smooth-scroll.js"></script>
+      <script type="text/javascript" src="js/plugins/countto/jquery.appear.js"></script>
+      <script type="text/javascript" src="js/custom.js"></script>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">5</span>
+    <br>Elementary Schools
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">110+</span>
+    <br>Students being helped
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">36</span>
+    <br>Volunteers
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">27</span>
+    <br>Sessions
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:100px 16px" id="work">
+  <h3 class="w3-center">CURRICULUM</h3>
+  <p class="w3-center w3-large">2017-2018</p>
+  <div class="w3-row-padding" style="margin-top:24px">
+    <div class="w3-quarter">
+      <ul class="w3-ul w3-grey w3-hover-shadow">
+        <li class="w3-green w3-xlarge w3-padding-32">Science</li>
+        <li class="w3-padding-16"><b>Week 1</b> What is Science?</li>
+        <li class="w3-padding-16"><b>Week 2</b> Scientific Hypothesis and Analysis of Results</li>
+        <li class="w3-padding-16"><b>Week 3</b> Endothermic/Exothermic Chemical Reactions</li>
+        <li class="w3-padding-16"><b>Week 4</b> Density</li>
+        <li class="w3-padding-16"><b>Week 5</b> Biomes</li>
+        <li class="w3-padding-16"><b>Week 6</b> Biomes Continued</li>
+        <li class="w3-padding-16"><b>Week 7</b> Human Body Systems</li>
+        <li class="w3-padding-16"><b>Week 8</b> Create your own Experiment</li>
+        <li class="w3-padding-16"><b>Week 9</b> Perform your Experiment</li>
+      </ul>
+    </div>
+    <div class="w3-quarter">
+      <ul class="w3-ul w3-light-gray w3-hover-shadow">
+        <li class="w3-orange w3-xlarge w3-padding-32">Robotics</li>
+        <li class="w3-padding-16"><b>Week 1</b> Research an Animal</li>
+        <li class="w3-padding-16"><b>Week 2</b> Finish Research & Learn to use Mindstorms Legos</li>
+        <li class="w3-padding-16"><b>Week 3</b> Build Robot Animal</li>
+        <li class="w3-padding-16"><b>Week 4</b> Build Robot Animal</li>
+        <li class="w3-padding-16"><b>Week 5</b> Finish Robot Animal & Start Programming</li>
+        <li class="w3-padding-16"><b>Week 6</b> Continue Programming</li>
+        <li class="w3-padding-16"><b>Week 7</b> Finish Programming</li>
+        <li class="w3-padding-16"><b>Week 8</b> Make Poster About Animal</li>
+        <li class="w3-padding-16"><b>Week 9</b> Present</li>
+      </ul>
+    </div>
+    <div class="w3-quarter">
+      <ul class="w3-ul w3-light-gray w3-hover-shadow">
+        <li class="w3-yellow w3-xlarge w3-padding-32">Math 3rd Grade</li>
+        <li class="w3-padding-16"><b>Week 1</b> Rounding</li>
+        <li class="w3-padding-16"><b>Week 2</b> Clock</li>
+        <li class="w3-padding-16"><b>Week 3</b> Coins and Money</li>
+        <li class="w3-padding-16"><b>Week 4</b> Multiple Digit Addition/Subtraction Games</li>
+        <li class="w3-padding-16"><b>Week 5</b> Single Digit Multiplication</li>
+        <li class="w3-padding-16"><b>Week 6</b> Basic Division</li>
+        <li class="w3-padding-16"><b>Week 7</b> Decimals</li>
+        <li class="w3-padding-16"><b>Week 8</b> PEMDAS</li>
+        <li class="w3-padding-16"><b>Week 9</b> Word Problems</li>
+      </ul>
+    </div>
+    <div class="w3-quarter">
+      <ul class="w3-ul w3-gray w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-32">Math 4th Grade</li>
+        <li class="w3-padding-16"><b>Week 1</b> Clock</li>
+        <li class="w3-padding-16"><b>Week 2</b> Coins and Money</li>
+        <li class="w3-padding-16"><b>Week 3</b> Double Digit Multiplication</li>
+        <li class="w3-padding-16"><b>Week 4</b> PEMDAS</li>
+        <li class="w3-padding-16"><b>Week 5</b> Fractions, Decimals and Percentages</li>
+        <li class="w3-padding-16"><b>Week 6</b> Adding/Subtracting Fractions and Decimals</li>
+        <li class="w3-padding-16"><b>Week 7</b> Multiplying/Dividing Fractions and Decimals</li>
+        <li class="w3-padding-16"><b>Week 8</b> Beginner Algebra</li>
+        <li class="w3-padding-16"><b>Week 9</b> Word Problems</li>
+      </ul>
+    </div>
+  </div>
+</div>
+    
+<!-- Work Section Work Section Work Section Work Section Work Section -->
+<!-- Work Section Work Section Work Section Work Section Work Section -->
+<div class="w3-container w3-center w3-whie" style="padding:100px 16px" id="ca">
+  <h3>Competition Math Classes</h3>
+    <p class="w3-center w3-large"style="margin-top:-10px">All profits go to helping underprivileged students<br><br><font color="red"><b>August 7-11, 9am - 1pm, 74 Northeastern Blvd, Suite 21A Nashua, NH 03062</b></font><br>Stay until 4pm for additional $10 per day<br>Payment is expected on August 7th<br><font color="red"><b>Registration ends Friday, July 28th</b></font></p>
+    <div class="w3-row-padding" style="margin-top:24px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <div class="w3-container">
+          <h3>Intro to <br>Competition Math</h3>
+          <p class="w3-opacity"style="margin-top:-10px">Grades 4 and 5 - $125<br> 15 Kid Limit</p>
+          <p>During the week we will expose the kids to many different math competitons available for their grade level. We will teach them important topics and give them many practice tests.</p>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSftqmhdX8gnqHjqDmptJKdrANYJb3wcedpRrEgDeO1YfXU1xA/viewform?usp=sf_link" class="w3-button w3-black">More Information & Sign Up</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <div class="w3-container">
+          <h3>MathCounts <br>Practice</h3>
+          <p class="w3-opacity"style="margin-top:-10px">Grades 6, 7, and 8 - $150<br> 15 Kid Limit</p>
+          <p>The kids will take a complete MathCounts test everyday and go over it. We will teach them many topics and tricks that are important to do well as well as show them important strategies. </p>
+        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdPW2xjPs_-PS6qasfJOHs_4TvZtmn2TTHJEbK1mMozbO9Mig/viewform?usp=sf_link" class="w3-button w3-black">More Information & Sign Up</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <div class="w3-container">
+          <h3>Science Bowl & <br>Science Olympiad</h3>
+          <p class="w3-opacity"style="margin-top:-10px">Grades 6, 7, and 8 - $125<br> 10 Kid Limit</p>
+          <p> We will start with a Science Bowl practice session where the kids will be taught important topics as well as competition strategies. We will also work on assorted Science Olympiad competitions.</p>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeAC1CkEflWNXMLo8Jwi4-WAu7de_RdJVmDKk5MrtCWfjl4EQ/viewform?usp=sf_link" class="w3-button w3-black">More Information & Sign Up</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <div class="w3-container">
+          <h3>Java Programming <br>Beginner</h3>
+          <p class="w3-opacity"style="margin-top:-10px">Grades 6 and up - $250 <br> 12 Kid Limit</p>
+          <p>Mrs. Spargo, the Java and AP Computer Science teacher at Nashua High School South will teach the class. By the end, the kids will be  solving programming competition problems. </p>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfPjFmKZCI1ZX-NwYtisy0XSd5Ib4qH18RtlTgPoNt7KN8LuA/viewform?usp=sf_link" class="w3-button w3-black">More Information & Sign Up</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>How do the kids perform?</h3>
+      <p>At the beginning of the 2016-2017 school year we gave a Math test to the 115 elementary schoolers and the average score was 27 percent.</p>
+      <p>At the end of the 2016-2017 school year we gave a test with the same topics and the average score was 86 percent. 32 kids got a perfect score!</p>
+    </div>
+    <div class="w3-col m6" style="margin-top:20px">
+      <p class="w3-wide">2016 - 2017 Session 1 Test</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:27%">27%</div>
+      </div>
+      <p class="w3-wide">2016 - 2017 Session 27 Test</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:86%">86%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Projects Section -->
+<section id="projects" class="w3-container resume-section section-padding" style="16px">
+        <div class="container">
+            <h3 class="w3-center" style="margin-top:120px">PROJECTS</h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="w3-center">2017</h3>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li>
+                                <div class="posted-date">
+                                    <span class="month">Sept. 27</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Year 2, Lesson 1</h3>
+                                        </div><!-- /timeline-heading -->
+                                        
+                                        <div class="timeline-body">
+                                            <p>The weekly sessons at the 5 tier-1 schools begin</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                    <span class="month">Aug. 7-11</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Summer Camp</h3>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>All profits from the camp went to funding the 2017-2018 sessions</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+                            <li>
+                                <div class="posted-date">
+                                    <span class="month">Jun. 8</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Year 1, Sesson 27</h3>
+                                        </div><!-- /timeline-heading -->
+                                        
+                                        <div class="timeline-body">
+                                            <p>The weekly sessons at the 5 tier-1 schools ended. Here we gave the kids one last worksheet to test their what they have learned.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                    <span class="month">Apr. 6 - <br>Jun. 8</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Junior First Lego League</h3>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>STEMBuds volunteers held 10, 75 min sessions, where we ran 6 Junior First Lego League teams consisting of 4 second and third graders. The program was a great success because we were able to influence kids to enjoy STEM feilds at an extremely young age!</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+                              <li>
+                                <div class="posted-date">
+                                    <span class="month">Mar. 4 - <br>Jun. 10</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Competition Math Sessions</h3>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>STEMBuds volunteers held 10, 2-hour math sessions, where they helped 17 students improve their math skills. All profits from the sessions went to funding the weekly sessions at the schools</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <h3 class="w3-center" style="padding:12px">2016</h3>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li>
+                                <div class="posted-date">
+                                    <span class="month">Sept. 28</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Year 1, Lesson 1</h3>
+                                        </div><!-- /timeline-heading -->
+                                        
+                                        <div class="timeline-body">
+                                            <p>The weekly sessons at the 5 tier-1 schools begin</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /.container -->
+</section><!-- End Resume Section -->
+    
+<!-- app Section -->
+<div class="w3-container w3-light-grey" style="padding:100px 16px" id="app">
+  <h3 class="w3-center">APP</h3>
+    <div class="w3-row-padding">
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-card-2" style="margin-top: 15px">
+                <img src="./img/Aalap.png" alt="Dan" style="width:100%">
+                <div class="w3-container">
+                    <h3>Aalap Patel</h3>
+                    <p class="w3-opacity"style="margin-top:-10px">App Developer</p>
+                    <p> I am currently a student at NHSS. I have a passion for the field of computer science and along with completing various programming courses, I have competed and won at state tech competitions, regional hackathons.</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-col m9" style="margin-top: 18px">
+            <p>This app helps elementary schoolers gain advanced knowledge of mathematics concepts! With comprehensive games ranging from level 1 addition to PEMDAS, this app is sure to help your child review all their newly grasped math facts! <br></p>
+            <p><a href="https://tinyurl.com/stembuds" class="w3-button w3-black">Download App</a></p>
+        </div>
+        <div class="w3-col m9">
+            <iframe class="w3-round-large" width="100%" height="250px" src="https://www.youtube.com/embed/bSJ7JEn9o8A" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div><!-- /row -->
+
+<!-- Contact Section -->
+<div class="w3-container w3-white" style="padding:100px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Nashua High School South</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (603) 233-5545</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: info@stembuds.org</p>
+      <br>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeM_s52J9E33QkU4WwVM-Jn7WWQEsCkwn9HL7jJ2WlwNGATnQ/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/Nashua-STEMBuds-215392212307853/" title="W3.CSS" target="_blank" class="w3-hover-opacity"><i class="fa fa-facebook-official"></i></a>
+    <a href="https://www.instagram.com/stem_buds/?hl=en" title="W3.CSS" target="_blank" class="w3-hover-opacity"><i class="fa fa-instagram"></i></a>
+    <a href="https://twitter.com/nashuastembuds" title="W3.CSS" target="_blank" class="w3-hover-opacity"><i class="fa fa-twitter"></i></a>
+  </div>
+  <p>Copyright ©2016 stembuds.org</p>
+</footer>
+
+</body>
+</html>
